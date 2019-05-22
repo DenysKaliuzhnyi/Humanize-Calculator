@@ -14,3 +14,5 @@ Example of your correct input -1+2/4*100    - 191432423 =-0/0.
 Write equation to be converted in input.txt and see result in output.txt by running main.py.
 
 You can run pytests of this prog by command "pytest testsCalculator.py" in your terminal.
+
+In folder "telegram_bot_version" you can find the same program, but input-output provided by Telegram bot @testing_my_code_bot. It's convenient for manual testing :).
