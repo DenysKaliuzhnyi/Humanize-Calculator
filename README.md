@@ -15,4 +15,4 @@ Write equation to be converted in input.txt and see result in output.txt by runn
 
 You can run pytests of this prog by command "pytest testsCalculator.py" in your terminal.
 
-In folder "telegram_bot_version" you can find the same program, but input-output provided by Telegram bot @testing_my_code_bot. It's convenient for manual testing :).
+In folder "telegram_bot_version" you can find the same program, but input-output provided by Telegram bot https://t.me/testing_my_code_bot. It's convenient for manual testing :).
