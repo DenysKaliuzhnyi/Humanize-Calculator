@@ -2,7 +2,7 @@
 This program converts math equation in humanized style
 (2+2=4 will be "two plus two equals four").
 
-About input data info:
+About input data info:  
     possible symbols are +-*/= and digits;  
     white symbols will be ignored (even inside number);  
     the program checks whether input formulation is valid in sense of maths,
