@@ -21,13 +21,13 @@ from humanizeCalculator import humanize_equation
 import os
 
 workingDirectory = os.getcwd()
-finName = f'{workingDirectory}\input.txt'
-foutName = f'{workingDirectory}\output.txt'
+finName = f'{workingDirectory}/input.txt'
+foutName = f'{workingDirectory}/output.txt'
 
 
 def write_result(fname, data):
-    with open(fname, 'w', encoding='utf8') as f:
-        f.write(str(data))
+    with open(fname, 'w', encoding='utf8') as fw:
+        fw.write(str(data))
 
 
 if __name__ == '__main__':
