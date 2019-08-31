@@ -77,10 +77,12 @@ def separate_number_by_hundreds(number):
     :example: "73798234" |-> ['73', '798', '234']
     """
     separated_operands = []
-    for times in range(0, len(number), 3):
-        separated_operands.append(number[-3:])
-        number = number[:-3]
-    return list(reversed(separated_operands))
+    ln = len(number)
+    if ln % 3 != 0:
+        separated_operands.append(number[:ln % 3])
+    for k in range(ln % 3, ln, 3):
+        separated_operands.append(number[k: k + 3])
+    return separated_operands
 
 
 def humanize_hundreds(number3):
